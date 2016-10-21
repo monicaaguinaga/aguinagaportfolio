@@ -21,7 +21,11 @@ body {
 h2 { font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  color: #727272;
+  padding-top: 50px;
 }
 
 
@@ -64,30 +68,33 @@ h1 {
 
 #contact{
     text-align: center;
+    letter-spacing: 1px;
 }
 
 #projects {
-    border-top: 1px solid grey;
-    box-shadow: 1px solid white;
+
     background-color: #fff;
     color: #727272;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 
 }
 
 #projects li{
     display: inline;
     float: left;
+    margin-right: 50px;
 }
 
-#proejects ul {
-  width: 100%;
-}
 
 #projects h2 {
     text-align: center;
+    padding-top: 100px;
 }
 #projects h3 {
     font-size: 15px;
+    text-align: center;
 }
 #projects img {
     width: 250px;
@@ -98,6 +105,7 @@ h1 {
 }
 #socialmedia li {
   padding: 20px;
+  float: none;
 }
 
 #socialmedia {
@@ -117,6 +125,7 @@ h1 {
   padding: 10px;
   letter-spacing: 1px;
   background-color: #fff;
-  color: #727272
+  color: #727272;
+  margin-top: 20px;
 
 }
