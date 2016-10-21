@@ -1,40 +1,122 @@
 
-body { font-family: 'Helvetica Neue', sans-serif;
-       font-size: 20px;
-       padding: 50px;
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+  color: #fff;
+  margin-top: -20px;
+}
+
+#welcome {
+  height: 500px;
+  background-image: url("images/bg.jpg");
+  background-size: 1300px 500px;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h2 { font-size: 15px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.5px;
- }
+}
 
 
 
 p { font-family: 'Helvetica Neue', sans-serif;
-  font-size: 16px; l
-  line-height: 30px;
-  margin: 0 0 24px;
-  text-align: justify;
-  text-justify: inter-word; }
+    font-size: 16px; l
+    line-height: 30px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word; }
 
 #bio {
-  width: 500px;
-  line-height: 20px;
+    padding: 50px 0 0 25px;
+    width: 500px;
+    line-height: 25px;
+  }
+
+  #bio p{
+    padding-left: 40px;
+  }
+
+
+
+h1 {
+    padding: 50px 0 0 65px;
+
 }
 
-#socialmedia li, #contact li, #projects li {
-  list-style-type: none;
-  display: inline;
+#socialmedia li, #projects li, #contact li {
+    list-style-type: none;
+    display: inline;
 }
 
-#projects, #socialmedia {
-  text-align: center;
+#socialmedia {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #fff;
+  }
+
+
+#contact{
+    text-align: center;
+}
+
+#projects {
+    border-top: 1px solid grey;
+    box-shadow: 1px solid white;
+    background-color: #fff;
+    color: #727272;
+
+}
+
+#projects li{
+    display: inline;
+    float: left;
+}
+
+#proejects ul {
+  width: 100%;
+}
+
+#projects h2 {
+    text-align: center;
+}
+#projects h3 {
+    font-size: 15px;
+}
+#projects img {
+    width: 250px;
+}
+
+#socialmedia img {
+  width: 50px;
+}
+#socialmedia li {
+  padding: 20px;
+}
+
+#socialmedia {
   padding-top: 20px;
+  background-color:#fff;
+}
+.credit  {
+  font-size: 10px;
+  text-align: center;
+  color: #9e9e9e;
+  padding-top: 30px;
+  letter-spacing: 0.75px;
 }
 
-ul {
-  margin-left: -40px;
+#contact  {
+  font-size: 16px;
+  padding: 10px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  color: #727272
 
 }
