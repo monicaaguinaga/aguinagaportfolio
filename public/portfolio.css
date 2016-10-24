@@ -152,17 +152,17 @@ h1 {
 
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 375px) {
 
 
   #welcome {
 
-    background-size: 500px;
+    background-size: 375px;
 
   }
 
   #bio {
-    width: 345px;
+    width: 330px;
     font-size: 13px;
   }
 
