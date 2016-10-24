@@ -9,8 +9,8 @@ body {
 
 #welcome {
   height: 500px;
-  background-image: url("images/bg.jpg");
-  background-size: 1300px 500px;
+  background-image: url("images/portrait.jpg");
+  background-size: 1200px 500px;
   background-position: fixed;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -44,7 +44,10 @@ p { font-family: 'Helvetica Neue', sans-serif;
   }
 
   #bio p{
-    padding-left: 40px;
+    padding: 30px;
+  
+    font-weight: lighter;
+    background-color: rgba(0,0,0,0.4);
   }
 
 
