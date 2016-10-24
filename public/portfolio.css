@@ -9,7 +9,7 @@ body {
 
 #welcome {
   height: 600px;
-  background-image: url("images/portrait.jpg");
+  background-image: url("./images/portrait.jpg");
   background-size: 1200px 500px;
   background-position: fixed;
   background-repeat: no-repeat;
@@ -50,7 +50,16 @@ p { font-family: 'Helvetica Neue', sans-serif;
     background-color: rgba(0,0,0,0.4);
   }
 
+#bio a {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted #fff;
+}
 
+#bio a:hover {
+  color: #ededed;
+  text-shadow: 1px 1px 1px 1px #fff;
+}
 
 h1 {
     padding: 50px 0 0 65px;
@@ -101,10 +110,12 @@ h1 {
 }
 #projects img {
     width: 250px;
+    margin-top: 15px;
 }
 
 #socialmedia img {
-  width: 50px;
+  width: 40px;
+  margin-right: 15px;
 }
 #socialmedia li {
   padding: 20px;
@@ -112,14 +123,15 @@ h1 {
 }
 
 #socialmedia {
-  padding-top: 20px;
+  padding-top: 40px;
   background-color:#fff;
+  margin-bottom: 20px;
 }
 .credit  {
   font-size: 10px;
   text-align: center;
   color: #9e9e9e;
-  padding-top: 30px;
+  padding-top: 40px;
   letter-spacing: 0.75px;
 }
 
