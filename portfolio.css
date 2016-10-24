@@ -8,7 +8,7 @@ body {
 }
 
 #welcome {
-  height: 500px;
+  height: 600px;
   background-image: url("images/portrait.jpg");
   background-size: 1200px 500px;
   background-position: fixed;
@@ -38,14 +38,14 @@ p { font-family: 'Helvetica Neue', sans-serif;
     text-justify: inter-word; }
 
 #bio {
-    padding: 50px 0 0 25px;
+    padding: 50px 0 0 60px;
     width: 500px;
     line-height: 25px;
   }
 
   #bio p{
     padding: 30px;
-  
+
     font-weight: lighter;
     background-color: rgba(0,0,0,0.4);
   }
